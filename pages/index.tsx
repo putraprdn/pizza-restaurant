@@ -4,6 +4,7 @@ import Image from "next/image";
 import Featured from "../components/Featured";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import PizzaList from "../components/PizzaList";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
 			</Head>
 			<Navbar />
 			<Featured />
+			<PizzaList />
 			<Footer />
 		</div>
 	);
